@@ -1,0 +1,77 @@
+// Centralized listings data shared by Navbar suggestions and Home grid
+export const listings = [
+  {
+    id: 1,
+    title: 'Beachfront Villa in Malibu',
+    location: 'Malibu, California',
+    price: 450,
+    rating: 4.9,
+    host: 'Sarah',
+    category: 'Beachfront',
+    image: '/images/malibu-beach.jpeg',
+  },
+  {
+    id: 2,
+    title: 'Cozy Mountain Cabin',
+    location: 'Aspen, Colorado',
+    price: 280,
+    rating: 4.8,
+    host: 'Mike',
+    category: 'Cabins',
+    image: '/images/mountain-cabin.jpg',
+  },
+  {
+    id: 3,
+    title: 'Modern Loft Downtown',
+    location: 'New York, NY',
+    price: 320,
+    rating: 4.7,
+    host: 'Emma',
+    category: 'Trending',
+    image: '/images/modern-loft.jpeg',
+  },
+  {
+    id: 4,
+    title: 'Rustic Farmhouse',
+    location: 'Tuscany, Italy',
+    price: 195,
+    rating: 4.9,
+    host: 'Marco',
+    category: 'Countryside',
+    image: '/images/farmhouse.jpg',
+  },
+  {
+    id: 5,
+    title: 'Infinity Pool Villa',
+    location: 'Bali, Indonesia',
+    price: 380,
+    rating: 4.8,
+    host: 'Kadek',
+    category: 'Amazing pools',
+    image: '/images/pool-villa.jpg',
+  },
+  {
+    id: 6,
+    title: 'Penthouse Suite',
+    location: 'Dubai, UAE',
+    price: 750,
+    rating: 4.9,
+    host: 'Ahmed',
+    category: 'Luxe',
+    image: '/images/penthouse.jpg',
+  },
+  {
+    id: 7,
+    title: 'Beach House Paradise',
+    location: 'Santorini, Greece',
+    price: 520,
+    rating: 4.9,
+    host: 'Nikos',
+    category: 'Beachfront',
+    image: '/images/beach-house.jpg',
+  },
+];
+
+export const listingTitles = listings.map((l) => l.title);
+
+
